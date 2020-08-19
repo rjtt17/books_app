@@ -39,5 +39,5 @@ en:
   notice:  
     new: Book was successfully created.
     update: Book was successfully updated.
-    destroy: 削除しました！
-    confirm_message: Book was successfully destroyed.
+    destroy: Book was successfully destroyed.
+    confirm_message: Are you sure?  
