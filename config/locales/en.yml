@@ -29,5 +29,15 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+en:  
+  button:  
+    new_book: New Book
+    show: Show  
+    edit: Edit  
+    destroy: Destroy  
+    back: Back  
+  notice:  
+    new: 新規作成しました！
+    update: 更新しました！  
+    destroy: 削除しました！
+    confirm_message: Are you sure?  
