@@ -37,7 +37,7 @@ en:
     destroy: Destroy  
     back: Back  
   notice:  
-    new: 新規作成しました！
-    update: 更新しました！  
+    new: Book was successfully created.
+    update: Book was successfully updated.
     destroy: 削除しました！
-    confirm_message: Are you sure?  
+    confirm_message: Book was successfully destroyed.
