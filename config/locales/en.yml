@@ -29,5 +29,15 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+en:  
+  button:  
+    new_book: New Book
+    show: Show  
+    edit: Edit  
+    destroy: Destroy  
+    back: Back  
+  notice:  
+    new: Book was successfully created.
+    update: Book was successfully updated.
+    destroy: Book was successfully destroyed.
+    confirm_message: Are you sure?  
