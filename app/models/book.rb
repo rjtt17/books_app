@@ -2,5 +2,6 @@
 
 class Book < ApplicationRecord
   mount_uploader :picture, PictureUploader
-  paginates_per 20
+  DEFAULT_PAGINATES_PER = 20
+  paginates_per DEFAULT_PAGINATES_PER
 end
