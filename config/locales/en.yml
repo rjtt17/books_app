@@ -33,11 +33,34 @@ en:
   button:  
     new_book: New Book
     show: Show  
-    edit: Edit  
+    edit: Edit
+    edit_profile: Edit Account
+    logout: Logout 
     destroy: Destroy  
-    back: Back  
+    back: Back
+    book_index: Book Page
+    user_index: Account Page
   notice:  
     new: Book was successfully created.
     update: Book was successfully updated.
     destroy: Book was successfully destroyed.
-    confirm_message: Are you sure?  
+    confirm_message: "Are you sure?"
+  text:
+    login_name: Logged in as
+    info: information
+  activerecord:
+    models:
+      book: Book
+      user: Account
+    attributes:
+      book:
+        title: Title
+        memo: Memo
+        author: Author
+        picture: Picture
+      user:
+        email: Email
+        name: Name
+        zip: Zip
+        adress: Adress
+        biograpy: Biograpy

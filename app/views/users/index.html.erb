@@ -1,0 +1,26 @@
+<h1><%= User.model_name.human %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= User.human_attribute_name(:email) %></th>
+      <th><%= User.human_attribute_name(:name) %></th>
+      <th><%= User.human_attribute_name(:biograpy) %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <th><%= user.email %></th>
+        <td><%= user.name %></td>
+        <td><%= user.biograpy %></td>
+        <td><%= link_to t('button.show'), user %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<hr>
+<%= page_entries_info @users %>
+<%= paginate @users %><br><br>
+<%= link_to  t('button.book_index'), books_path %>
