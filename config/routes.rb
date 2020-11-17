@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root 'books#index'
+  root "books#index"
   devise_for :users
   resources :users, only: [:index, :show]
   resources :books
