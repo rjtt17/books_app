@@ -1,20 +1,20 @@
 ---
 ja:  
-  button:  
+  button:
     new_book: 新規作成
-    show: 詳細  
+    show: 詳細
     edit: 編集
     edit_profile: アカウント編集
-    logout: ログアウト  
-    destroy: 削除  
+    logout: ログアウト
+    destroy: 削除
     back: 戻る
     book_index: 書籍一覧へ
     user_index: アカウント一覧へ
-  notice:  
+  notice:
     new: 新規作成しました！
-    update: 更新しました！  
+    update: 更新しました！
     destroy: 削除しました！
-    confirm_message: 削除してよろしいですか? #'Are you sure?'
+    confirm_message: 削除してよろしいですか?
   text:
     login_name: "アカウント名:"
     info: "情報"
@@ -24,7 +24,7 @@ ja:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
         restrict_dependent_destroy:
           has_one: "%{record}が存在しているので削除できません"
-          has_many: "%{record}が存在しているので削除できません"      
+          has_many: "%{record}が存在しているので削除できません"    
   date:
     abbr_day_names:
     - 日
