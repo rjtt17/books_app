@@ -45,6 +45,7 @@ group :development do
   gem "rubocop", require: false
   gem "rubocop-performance"
   gem "rubocop-rails"
+  gem "rubocop-fjord", require: false
 end
 
 group :test do
@@ -61,3 +62,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "carrierwave"
 
 gem "kaminari"
+
+gem "devise"

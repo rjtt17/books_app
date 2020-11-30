@@ -1,16 +1,23 @@
 ---
 ja:  
-  button:  
+  button:
     new_book: 新規作成
-    show: 詳細  
-    edit: 編集  
-    destroy: 削除  
-    back: 戻る  
-  notice:  
+    show: 詳細
+    edit: 編集
+    edit_profile: アカウント編集
+    logout: ログアウト
+    destroy: 削除
+    back: 戻る
+    book_index: 書籍一覧へ
+    user_index: アカウント一覧へ
+  notice:
     new: 新規作成しました！
-    update: 更新しました！  
+    update: 更新しました！
     destroy: 削除しました！
-    confirm_message: 削除してよろしいですか? #'Are you sure?'    
+    confirm_message: 削除してよろしいですか?
+  text:
+    login_name: "アカウント名:"
+    info: "情報"
   activerecord:
     errors:
       messages:

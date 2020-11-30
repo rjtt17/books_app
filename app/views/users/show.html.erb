@@ -1,0 +1,28 @@
+<h1><%= User.model_name.human %> <%= t('text.info') %></h1>
+
+<p>
+  <strong><%= User.human_attribute_name(:email) %>:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:name) %>:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:biograpy) %>:</strong>
+  <%= @user.biograpy %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:zip) %>:</strong>
+  <%= @user.zip %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:adress) %>:</strong>
+  <%= @user.adress %>
+</p>
+
+<%= link_to t('button.back'), books_path %>
