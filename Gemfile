@@ -65,4 +65,4 @@ gem "kaminari"
 
 gem "devise"
 
-gem 'omniauth-github'
+gem "omniauth-github"
