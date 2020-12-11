@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddColumnnsToUsers < ActiveRecord::Migration[6.0]
   def change
     add_column :users, :provider, :string, null: false, default: ""
