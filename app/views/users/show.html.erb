@@ -25,4 +25,11 @@
   <%= @user.adress %>
 </p>
 
+<p>
+  <strong><%= User.human_attribute_name(:avatar) %>:</strong>
+  <% if @user.avatar.attached? %>
+    <%= image_tag @user.avatar.variant(resize: "300x300") %>
+  <% end %>
+</p>
+
 <%= link_to t('button.back'), books_path %>
